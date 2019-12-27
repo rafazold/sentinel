@@ -1,0 +1,71 @@
+@font-face { font-family: josefin-slab-thin;
+    src: url('../assets/font/JosefinSlab-Thin.ttf');
+}
+@font-face {
+    font-family: josefin-slab-regular;
+    src: url('../assets/font/JosefinSlab-Regular.ttf');
+}
+
+
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-2;
+}
+
+#backgroundImage {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.logo {
+    width: 198px;
+    z-index: 10;
+}
+
+.header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+}
+
+.container {
+    margin: 20vh auto;
+}
+
+h1, h2, .footer-text{
+    font-family: josefin-slab-thin, serif;
+    /*font-size: 24px;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 83px;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 38px;
+    letter-spacing: 0.04em;
+}
+
+.footer-text {
+    font-size: 21px;
+    position: absolute;
+    margin-left: calc(50% - 63px);
+    bottom: 10%;
+    color: #775096;
+}
