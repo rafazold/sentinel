@@ -24,17 +24,19 @@
     min-height: 100%;
     opacity: 0.9;
     z-index: -1;
+    background: linear-gradient(227deg, rgba(24,0,86,1) 0%, rgba(52,0,96,1) 100%);
 }
 
 .logo {
-    width: 198px;
+    width: 260px;
     z-index: 10;
 }
 
 .header {
     margin-right: auto;
-    margin-left: auto;
-    width: 1000px;
+    margin-left: 5vw;
+    margin-top: 20px;
+    width: 90vw;
 }
 
 .container {
@@ -63,9 +65,9 @@ h2 {
 }
 
 .footer-text {
-    font-size: 21px;
+    font-size: 30px;
     position: absolute;
-    margin-left: calc(50% - 63px);
+    margin-left: calc(50% - 83px);
     bottom: 10%;
     color: #775096;
 }
